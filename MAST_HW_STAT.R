@@ -1,3 +1,4 @@
+# BSP 1
 mailSize <- c(1.5, 0.9, 3.3, 9.6, 6.1, 1.6, 2.1, 3.8, 5.3, 2.6, 7.1, 1.7, 1.0, 4.9)
 
 # Berechne das arithmetische Mittel der Dateigrößen
@@ -8,3 +9,22 @@ var(mailSize)
 
 # Berechne die in der Stichprobe gegebene Standardabweichung der Dateigrößen
 sd(mailSize)
+
+# BSP 2
+
+###
+
+# BSP 3
+
+tweetsStudents <- c(72, 33, 100, 41, 23, 21, 79, 67, 57, 94, 76, 45, 68, 77, 12)
+
+# Bestimme Minimum, Maximum sowie den Median.
+min(tweetsStudents)
+max(tweetsStudents)
+median(tweetsStudents)
+
+# Bestimme die Interquartil-Range dieser Verteilung.
+IQR(tweetsStudents)
+
+# Zeichne einen Boxplot dieser Verteilung.
+boxplot(tweetsStudents)
